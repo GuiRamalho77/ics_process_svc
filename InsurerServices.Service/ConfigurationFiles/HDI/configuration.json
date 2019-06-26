@@ -1,0 +1,45 @@
+{
+  "HdiProcessConfigurations": {
+    "ProposalMinimunValidLength": 6,
+    "CreateCancelationFiles": true,
+    "SendCancelationsFiles": true,
+    "ProcessCancelationFilesReturn": false,
+    "ProcessedFilesFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Processados",
+    "DownloadFilesFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Downloads",
+    "NewCancelationFilesFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Envios\\Novo",
+    "SendCancelationFilesFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Envios\\Enviar",
+    "LogsConfiguration": {
+      "DisableErrorLog": false,
+      "EnableInformationalLog": true,
+      "CancelationFileLogsFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Logs\\Cancelamentos",
+      "IsuanceFileLogsFolder": "C:\\Users\\yuri.puodzius\\Desktop\\HDI\\Logs\\Emissoes",
+      "ExceptionsLogsFolder": "./LOGS/EXCECOES"
+    },
+    "IssuanceFileFtp": {
+      "IsSftp": true,
+      "RsaFileName": "rsa.production.key",
+      "Username": "sftpituranprod",
+      "Password": "",
+      "Host": "sftp.hdiseguros.com.br",
+      "LookUpFileName": "hdi2mx2quali_doc",
+      "LookUpCreationFileDaysInterval": 30,
+      "RootFolder": "ftp",
+      "Port": 22,
+      "UploadFileFolder": "",
+      "Timeout": 60000
+    },
+    "CancelationFileFtp": {
+      "IsSftp": true,
+      "RsaFileName": "rsa.homolog.key",
+      "Username": "sftpituranhom",
+      "Password": "",
+      "Host": "sftp.hdiseguros.com.br",
+      "LookUpCreationFileDaysInterval": 30,
+      "LookUpFileName": "ret_",
+      "RootFolder": "ftp/cancel/",
+      "Port": 22,
+      "UploadFileFolder": "ftp/cancel/",
+      "Timeout": 6000
+    }
+  }
+}

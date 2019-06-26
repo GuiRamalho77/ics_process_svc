@@ -1,0 +1,12 @@
+{
+		
+		"LibertyProcessConfigurations": {
+			"LogsConfiguration": {
+				"DisableErrorLog": false,
+				"EnableInformationalLog": true,
+				"CancelationFileLogsFolder": "C:\\Users\\yuri.puodzius\\Desktop\\LIBERTY\\Logs\\Cancelamentos",
+				"IsuanceFileLogsFolder": "C:\\Users\\yuri.puodzius\\Desktop\\LIBERTY\\Logs\\Emissoes",
+				"ExceptionsLogsFolder": "./LOGS/EXCECOES"
+			}
+		}
+}

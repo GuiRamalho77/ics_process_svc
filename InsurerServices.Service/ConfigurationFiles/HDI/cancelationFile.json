@@ -1,0 +1,216 @@
+{
+	"CancelationFileConfiguration": {
+		"BusinessSettings": {
+			"HeaderIdentification": "HE",
+			"BodyIdentification": "DC",
+			"FooterIdentification": "TR",
+			"DefaultValues": {
+				"EMPRESA": "01",
+				"SUCURSAL": "045",
+				"CARTEIRA": "432",
+				"NUMERO_SEQUENCIAL_ARQUIVO": "000001" 
+			}
+			},
+		"HeaderFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": 0,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DATA_GERACAO": {
+				"Sequence": 2,
+				"InitialPosition": 3,
+				"Alignment": 0,
+				"Length": 8,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"HORA_GERACAO": {
+				"Sequence": 3,
+				"InitialPosition": 11,
+				"Alignment": 0,
+				"Length": 6,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"NUMERO_SEQUENCIAL_ARQUIVO": {
+				"Sequence": 4,
+				"InitialPosition": 17,
+				"Alignment": 0,
+				"Length": 6,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"NOME_ARQUIVO_REFERENCIA_ITURAN": {
+				"Sequence": 5,
+				"InitialPosition": 23,
+				"Alignment": 1,
+				"Length": 25,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			}
+		},
+		"BodyFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": 0,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"REGISTRO_SEQUENCIAL": {
+				"Sequence": 2,
+				"InitialPosition": 3,
+				"Alignment": 0,
+				"Length": 6,
+				"ComplementaryChar": "0",
+				"DefaultValue": ""
+			},
+			"EMPRESA": {
+				"Sequence": 3,
+				"InitialPosition": 9,
+				"Alignment": 0,
+				"Length": 2,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"SUCURSAL": {
+				"Sequence": 4,
+				"InitialPosition": 11,
+				"Alignment": 0,
+				"Length": 3,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"CARTEIRA": {
+				"Sequence": 5,
+				"InitialPosition": 14,
+				"Alignment": 0,
+				"Length": 3,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"DOCUMENTO": {
+				"Sequence": 6,
+				"InitialPosition": 17,
+				"Alignment": 0,
+				"Length": 6,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"ENDOSSO": {
+				"Sequence": 7,
+				"InitialPosition": 23,
+				"Alignment": 0,
+				"Length": 6,
+				"ComplementaryChar": "0",
+				"DefaultValue": ""
+			},
+			"NUMERO_CONTROLE_ITURAN": {
+				"Sequence": 8,
+				"InitialPosition": 29,
+				"Alignment": 1,
+				"Length": 25,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"CODIGO_EQUIPAMENTO": {
+				"Sequence": 9,
+				"InitialPosition": 54,
+				"Alignment": 1,
+				"Length": 25,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"DATA_CANCELAMENTO": {
+				"Sequence": 10,
+				"InitialPosition": 79,
+				"Alignment": 0,
+				"Length": 8,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"DATA_PROCESSAMENTO": {
+				"Sequence": 11,
+				"InitialPosition": 87,
+				"Alignment": 0,
+				"Length": 8,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"STATUS_CANCELAMENTO": {
+				"Sequence": 12,
+				"InitialPosition": 95,
+				"Alignment": 0,
+				"Length": 1,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"CODIGO_OBSERVACAO": {
+				"Sequence": 13,
+				"InitialPosition": 96,
+				"Alignment": 0,
+				"Length": 3,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+
+			"OBSERVACAO": {
+				"Sequence": 14,
+				"InitialPosition": 99,
+				"Alignment": 0,
+				"Length": 97,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"VALOR_PREMIO": {
+				"Sequence": 15,
+				"InitialPosition": 196,
+				"Alignment": 0,
+				"Length": 14,
+				"ComplementaryChar": "0",
+				"DefaultValue": ""
+			},
+			"TIPO_DOCUMENTO": {
+				"Sequence": 16,
+				"InitialPosition": 210,
+				"Alignment": 0,
+				"Length": 1,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"NR_CNPJ_CPF": {
+				"Sequence": 15,
+				"InitialPosition": 211,
+				"Alignment": 0,
+				"Length": 14,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			}
+
+
+		},
+		"FooterFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": 0,
+				"Length": 2,
+				"ComplementaryChar": " ",
+				"DefaultValue": ""
+			},
+			"TOTAL_REGISTROS": {
+				"Sequence": 2,
+				"InitialPosition": 3,
+				"Alignment": 0,
+				"Length": 10,
+				"ComplementaryChar": "0",
+				"DefaultValue": ""
+			}
+		}
+		}
+	}

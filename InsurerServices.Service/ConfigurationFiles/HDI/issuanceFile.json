@@ -1,0 +1,99 @@
+{
+	"IssuanceFileConfiguration": {
+		"BusinessSettings": {
+			"HeaderIdentification": "HE",
+			"BodyIdentification": "CT",
+			"FooterIdentification": "TR",
+			"BodyVehicleInformationIdentification": "IT"
+
+		},
+		"HeaderFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": null,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			}
+		},
+		"BodyFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": null,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DS_APOLICE": {
+				"Sequence": 2,
+				"InitialPosition": 21,
+				"Alignment": null,
+				"Length": 15,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DS_PROPOSTA": {
+				"Sequence": 3,
+				"InitialPosition": 36,
+				"Alignment": null,
+				"Length": 13,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"NR_CNPJ_CPF": {
+				"Sequence": 4,
+				"InitialPosition": 51,
+				"Alignment": null,
+				"Length": 14,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			}
+		},
+		"BodyVehicleInformation": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": null,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DS_PROPOSTA": {
+				"Sequence": 2,
+				"InitialPosition": 36,
+				"Alignment": null,
+				"Length": 13,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DS_CHASSI": {
+				"Sequence": 3,
+				"InitialPosition": 91,
+				"Alignment": null,
+				"Length": 20,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			},
+			"DS_CI": {
+				"Sequence": 5,
+				"InitialPosition": 850,
+				"Alignment": null,
+				"Length": 20,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			}
+		},
+		"FooterFields": {
+			"TIPO_REGISTRO": {
+				"Sequence": 1,
+				"InitialPosition": 1,
+				"Alignment": null,
+				"Length": 2,
+				"ComplementaryChar": "",
+				"DefaultValue": ""
+			}
+		}
+	}
+	}
